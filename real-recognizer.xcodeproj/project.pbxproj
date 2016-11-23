@@ -10,17 +10,9 @@
 		EA2894A31DA397B400237DA0 /* ImgProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2894A11DA397B400237DA0 /* ImgProc.cpp */; };
 		EA7BDE221DA18EB200EB03AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7BDE211DA18EB200EB03AB /* main.cpp */; };
 		EA7BDE291DA1947000EB03AB /* libopencv_core.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE281DA1947000EB03AB /* libopencv_core.3.1.0.dylib */; };
-		EA7BDE361DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2A1DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib */; };
 		EA7BDE371DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2B1DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib */; };
-		EA7BDE381DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2C1DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib */; };
-		EA7BDE391DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2D1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib */; };
 		EA7BDE3A1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2E1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib */; };
-		EA7BDE3B1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE2F1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib */; };
-		EA7BDE3C1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE301DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib */; };
-		EA7BDE3D1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE311DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib */; };
 		EA7BDE3E1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE321DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib */; };
-		EA7BDE3F1DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE331DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */; };
-		EA7BDE401DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE341DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */; };
 		EA7BDE411DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BDE351DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +46,7 @@
 		EA7BDE331DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.3.1.0.dylib; path = ../../../../opt/local/lib/libopencv_ml.3.1.0.dylib; sourceTree = "<group>"; };
 		EA7BDE341DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.3.1.0.dylib; path = ../../../../opt/local/lib/libopencv_ml.3.1.0.dylib; sourceTree = "<group>"; };
 		EA7BDE351DA194A400EB03AB /* libopencv_ml.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.3.1.0.dylib; path = ../../../../opt/local/lib/libopencv_ml.3.1.0.dylib; sourceTree = "<group>"; };
+		EAD3BD141DE630390053E329 /* targets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = targets.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,16 +57,8 @@
 				EA7BDE3A1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */,
 				EA7BDE411DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */,
 				EA7BDE291DA1947000EB03AB /* libopencv_core.3.1.0.dylib in Frameworks */,
-				EA7BDE401DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */,
-				EA7BDE3B1DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */,
 				EA7BDE371DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */,
-				EA7BDE361DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */,
 				EA7BDE3E1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */,
-				EA7BDE3D1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */,
-				EA7BDE391DA194A400EB03AB /* libopencv_imgcodecs.3.1.0.dylib in Frameworks */,
-				EA7BDE3F1DA194A400EB03AB /* libopencv_ml.3.1.0.dylib in Frameworks */,
-				EA7BDE381DA194A400EB03AB /* libopencv_highgui.3.1.0.dylib in Frameworks */,
-				EA7BDE3C1DA194A400EB03AB /* libopencv_imgproc.3.1.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +100,7 @@
 				EA7BDE211DA18EB200EB03AB /* main.cpp */,
 				EA2894A11DA397B400237DA0 /* ImgProc.cpp */,
 				EA2894A21DA397B400237DA0 /* ImgProc.hpp */,
+				EAD3BD141DE630390053E329 /* targets.txt */,
 			);
 			path = "real-recognizer";
 			sourceTree = "<group>";
@@ -145,7 +131,7 @@
 		EA7BDE161DA18EB200EB03AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "김동이";
 				TargetAttributes = {
 					EA7BDE1D1DA18EB200EB03AB = {
@@ -188,7 +174,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -197,8 +183,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -214,6 +202,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -232,7 +221,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -241,8 +230,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -252,6 +243,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -267,6 +259,7 @@
 		EA7BDE261DA18EB200EB03AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				HEADER_SEARCH_PATHS = /opt/local/include;
 				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +269,7 @@
 		EA7BDE271DA18EB200EB03AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				HEADER_SEARCH_PATHS = /opt/local/include;
 				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
